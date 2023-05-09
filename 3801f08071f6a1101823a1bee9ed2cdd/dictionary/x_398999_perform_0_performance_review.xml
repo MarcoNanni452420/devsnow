@@ -19,7 +19,7 @@
                 <element inactive_on_update="false" label="3 - Exceeds expectations" sequence="2" value="3 - Exceeds expectations"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Dependability" max_length="40" name="dependability" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dependability" max_length="90" name="dependability" type="string">
             <choice>
                 <element inactive_on_update="false" label="1 - Below expectations" sequence="0" value="1 - Below expectations"/>
                 <element inactive_on_update="false" label="2 - Meets expectations" sequence="1" value="2 - Meets expectations"/>

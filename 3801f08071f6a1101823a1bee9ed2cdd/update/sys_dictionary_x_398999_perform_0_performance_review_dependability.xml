@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>90</max_length>
         <name>x_398999_perform_0_performance_review</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
         <sys_update_name>sys_dictionary_x_398999_perform_0_performance_review_dependability</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 08:32:49</sys_updated_on>
+        <sys_updated_on>2023-05-09 10:42:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
