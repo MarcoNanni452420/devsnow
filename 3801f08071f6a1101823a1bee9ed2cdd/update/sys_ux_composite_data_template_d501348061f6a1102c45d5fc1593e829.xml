@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <name>Perf review evaluation sent out</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:18</sys_created_on>
+        <sys_id>d501348061f6a1102c45d5fc1593e829</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perf review evaluation sent out</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_d501348061f6a1102c45d5fc1593e829</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:18</sys_updated_on>
+        <template>{&#13;
+    "component": "now-card-evam-record",&#13;
+    "staticValues": {&#13;
+        "highlightedHeaderIcon": {&#13;
+        },&#13;
+        "highlightedHeaderBkgColor": {&#13;
+        },&#13;
+        "subtitleIcon": {&#13;
+        },&#13;
+        "imageType": {&#13;
+        },&#13;
+        "subtitleImageType": {&#13;
+        },&#13;
+        "detailLabelOne": {&#13;
+            &#13;
+        },&#13;
+        "cardlabel" : {&#13;
+        }&#13;
+    },&#13;
+    "mappings": {&#13;
+&#13;
+		"titleLabel": "value"&#13;
+&#13;
+    },&#13;
+    "actionMappings": {&#13;
+        "mainActions": [],&#13;
+        "clickAction": {}&#13;
+    }&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

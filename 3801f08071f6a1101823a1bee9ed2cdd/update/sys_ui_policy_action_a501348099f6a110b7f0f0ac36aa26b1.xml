@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>future_goals</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:45</sys_created_on>
+        <sys_id>a501348099f6a110b7f0f0ac36aa26b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>future_goals</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a501348099f6a110b7f0f0ac36aa26b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:45</sys_updated_on>
+        <table>x_398999_perform_0_performance_review</table>
+        <ui_policy display_value="employee fields mandatory on submit">e50134801bf6a1108b1f5b452f0a64b6</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>sys_user_has_role.user</default_tab_focus>
+        <default_tab_order>true</default_tab_order>
+        <description/>
+        <disable_section_collapse>false</disable_section_collapse>
+        <experience_restricted>false</experience_restricted>
+        <hide_details>true</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
+        <hide_section_menu>false</hide_section_menu>
+        <name>Performance Review user Record</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4201748081f6a110a31f2da0574445c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review user Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sysrule_view_workspace_4201748081f6a110a31f2da0574445c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:27</sys_updated_on>
+        <table>sys_user</table>
+        <tabs_order>[{"label":"Details","value":"Details"},{"label":"Roles","value":"sys_user_has_role.user"},{"label":"Groups","value":"sys_user_grmember.user"},{"label":"Delegate-&gt;User","value":"sys_user_delegate.user"}]</tabs_order>
+        <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
+        <workspace/>
+    </sysrule_view_workspace>
+</record_update>

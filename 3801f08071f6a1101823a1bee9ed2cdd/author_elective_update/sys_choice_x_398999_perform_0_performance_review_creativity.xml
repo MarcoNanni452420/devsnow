@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="creativity" table="x_398999_perform_0_performance_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>creativity</element>
+            <name>x_398999_perform_0_performance_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>creativity</sys_name>
+            <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+            <sys_update_name>sys_choice_x_398999_perform_0_performance_review_creativity</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>creativity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Below expectations</label>
+            <language>en</language>
+            <name>x_398999_perform_0_performance_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:31</sys_updated_on>
+            <value>1 - Below expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>creativity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Meets expectations</label>
+            <language>en</language>
+            <name>x_398999_perform_0_performance_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:31</sys_updated_on>
+            <value>2 - Meets expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>creativity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Exceeds expectations</label>
+            <language>en</language>
+            <name>x_398999_perform_0_performance_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:31</sys_updated_on>
+            <value>3 - Exceeds expectations</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

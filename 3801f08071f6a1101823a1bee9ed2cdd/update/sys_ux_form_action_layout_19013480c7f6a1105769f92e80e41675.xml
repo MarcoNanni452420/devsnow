@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout">
+    <sys_ux_form_action_layout action="INSERT_OR_UPDATE">
+        <action_config display_value="Performance Review Employee Portal ">19013480ecf6a1103332c9890e63ed7e</action_config>
+        <active>true</active>
+        <description>Evaluation draft related actions</description>
+        <name>Evaluation Draft</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:32</sys_created_on>
+        <sys_id>19013480c7f6a1105769f92e80e41675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evaluation Draft</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_19013480c7f6a1105769f92e80e41675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:32</sys_updated_on>
+        <table>x_398999_perform_0_performance_review</table>
+    </sys_ux_form_action_layout>
+</record_update>

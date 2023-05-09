@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>employee,manager,review_period,title,state,number,evaluation_due,manager.avatar,evaluation_sent_out</field_list>
+        <name>Performance Review Search View Config</name>
+        <order>200</order>
+        <predicate_bundle display_value="Performance Review AI Portal Search Bundle">5d01348086f6a11072d57bcaef8d9c2c</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:29</sys_created_on>
+        <sys_id>15013480eaf6a11075cffb8c37e88e29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Search View Config</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_15013480eaf6a11075cffb8c37e88e29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:29</sys_updated_on>
+        <table>x_398999_perform_0_performance_review</table>
+        <ux_template display_value="Performance Review Search Template Results">1d0134804bf6a1109a2d4aff6653d02a</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

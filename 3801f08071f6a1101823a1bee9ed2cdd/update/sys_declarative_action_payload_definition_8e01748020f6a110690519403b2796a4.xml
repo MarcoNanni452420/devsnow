@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>UPDATE_REQUESTED_PR</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Updated Requested PR</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_8e01748020f6a110690519403b2796a4</payload_field_table>
+        <payload_template>{&#13;
+  "sysId" : "{{sysId}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:31</sys_created_on>
+        <sys_id>8e01748020f6a110690519403b2796a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Updated Requested PR</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_8e01748020f6a110690519403b2796a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:31</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

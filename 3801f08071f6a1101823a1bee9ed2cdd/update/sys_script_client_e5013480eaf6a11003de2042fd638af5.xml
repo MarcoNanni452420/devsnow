@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>review_frequency</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages>Set the schedule for the first evaluation of the year, and the system will repeat your schedule again in 6 months.&#13;
+Managers will need to request evaluations manually via the Performance appraisal app in Workspace.&#13;
+Set the schedule for the first evaluation of the year, and the system will repeate your schedule according to your chosen frequency.</messages>
+        <name>Edit Settings: Freq Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (newValue === '') {
+        return;
+    }
+
+
+    var frequency = g_form.getValue('review_frequency');
+
+    if (frequency == '12') {
+        g_form.setValue('review_process_schedule', 12);
+    }
+
+    if (frequency == '6') {
+        g_form.setValue('note', getMessage('Set the schedule for the first evaluation of the year, and the system will repeat your schedule again in 6 months.'));
+        g_form.setValue('review_process_schedule', 6);
+    }
+
+    if (frequency == '0') {
+        g_form.setValue('note', getMessage('Managers will need to request evaluations manually via the Performance appraisal app in Workspace.'));
+        g_form.setValue('review_process_schedule', 0);
+    }
+
+    if (frequency == 'custom')
+        g_form.setValue('note', getMessage('Set the schedule for the first evaluation of the year, and the system will repeate your schedule according to your chosen frequency.'));
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5013480eaf6a11003de2042fd638af5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Settings: Freq Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_script_client_e5013480eaf6a11003de2042fd638af5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:16</sys_updated_on>
+        <table>x_398999_perform_0_performance_review</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view>settings</view>
+    </sys_script_client>
+</record_update>

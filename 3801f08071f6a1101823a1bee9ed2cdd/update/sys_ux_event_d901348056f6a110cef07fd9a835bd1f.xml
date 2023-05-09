@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>COMPLETE_BUTTON_CLICK</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>complete button click</label>
+        <props>[{"name":"sysId","fieldType":"","label":"Record Id","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"status","fieldType":"","label":"Status","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[{"message":"Record Id","comment":""},{"message":"Status","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+        <sys_id>d901348056f6a110cef07fd9a835bd1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>complete button click</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_event_d901348056f6a110cef07fd9a835bd1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=d901348056f6a110cef07fd9a835bd1f"/>
+</record_update>

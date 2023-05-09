@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">51013480a1f6a1106dcbb22e9a62887c</macroponent>
+        <name>PR_show notification on actions</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Record is successfully deleted.",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "Changed are save successfully",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    debugger;
+    // const {
+    //     status
+    // } = event.payload;
+
+    //if (status == "updated") {
+    if (api.state.pr_screen_status == "updated")
+        helpers.translate('Changed are save successfully').then((value) => {
+            api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items: [{
+                    id: 'save_changes',
+                    status: "positive",
+                    icon: "check-outline",
+                    header: "Changes saved",
+                    content: {
+                        type: "html",
+                        value: "<span><br>" + value + "</span>"
+                    },
+                    action: {
+                        type: "dismiss"
+                    }
+                }]
+            });
+        });
+}
+// this is not showing as the record is deleted and is routed to the home page.
+if (status == "closed") {
+    helpers.translate('Record is successfully deleted.').then((value) => {
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+            items: [{
+                id: 'save_changes',
+                status: "positive",
+                icon: "bell-outline",
+                header: "Record deleted",
+                content: value,
+                action: {
+                    type: "dismiss"
+                }
+            }]
+        });
+    });
+}
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:28</sys_created_on>
+        <sys_id>5d013480aef6a11046a02ea0ff7f4f3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR_show notification on actions</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_client_script_5d013480aef6a11046a02ea0ff7f4f3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:28</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

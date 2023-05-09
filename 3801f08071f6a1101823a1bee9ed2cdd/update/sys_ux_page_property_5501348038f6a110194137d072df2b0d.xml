@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>,&#13;
+{&#13;
+   "id": "evaluation-settings",&#13;
+   "label": "Settings",&#13;
+   "icon": "gear-outline",&#13;
+   "viewportInfo": {},&#13;
+   "routeInfo": {&#13;
+     "route": "evaluation-settings"&#13;
+   },&#13;
+   "group": "bottom",&#13;
+   "badge":{},&#13;
+   "presence": {},&#13;
+   "availability": {&#13;
+		"roles" : ["admin"]&#13;
+   }&#13;
+ }</description>
+        <name>chrome_toolbar</name>
+        <page display_value="Performance Review App Workspace">0a01748065f6a1105ad5cc701d47a8de</page>
+        <required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5501348038f6a110194137d072df2b0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_page_property_5501348038f6a110194137d072df2b0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:03</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_398999_perform_0.0a01748065f6a1105ad5cc701d47a8de.root.chrome_toolbar</unique_name>
+        <value>[&#13;
+{&#13;
+   "id": "home",&#13;
+   "label": "Home",&#13;
+   "icon": "home-outline",&#13;
+   "viewportInfo": {},&#13;
+   "routeInfo": {&#13;
+     "route": "home"&#13;
+   },&#13;
+   "group": "top",&#13;
+   "badge": {},&#13;
+   "presence": {},&#13;
+   "availability": {&#13;
+   "roles": []&#13;
+   }&#13;
+ },&#13;
+{&#13;
+   "id": "list",&#13;
+   "label": "List",&#13;
+   "icon": "list-outline",&#13;
+   "viewportInfo": {},&#13;
+   "routeInfo": {&#13;
+     "route": "list"&#13;
+   },&#13;
+   "group": "top",&#13;
+   "badge":{},&#13;
+   "presence": {},&#13;
+   "availability": {&#13;
+		"roles" : []&#13;
+   }&#13;
+ }&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=5501348038f6a110194137d072df2b0d"/>
+</record_update>

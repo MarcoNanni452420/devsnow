@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_route_permission">
+    <sys_ux_route_permission action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <groups/>
+        <roles/>
+        <route/>
+        <sys_class_name>sys_ux_route_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:45</sys_created_on>
+        <sys_id>5101348037f6a110178fc042f8899b0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_route_permission_5101348037f6a110178fc042f8899b0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:45</sys_updated_on>
+        <type>write</type>
+        <users>36d34cf6dbc8e01047124c9b0b96196e</users>
+    </sys_ux_route_permission>
+</record_update>

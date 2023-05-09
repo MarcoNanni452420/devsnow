@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Self Evaluation">1d013480aff6a11058a7935dc6e0cc59</macroponent>
+        <name>Validate Record Status</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    var _status = api.data.look_up_review.result.state.value;
+
+    //validate if the the record status is in the draft or submitted state.
+    //redirect if doesnt meet condition
+    if(_status != 'submitted'){
+       helpers.navigate.to('emp-evaluation', {
+            sysId: api.context.props.sysId,
+            status: _status
+        }); 
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:23</sys_created_on>
+        <sys_id>5501348050f6a110aa7240b43ce7d734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Record Status</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_client_script_5501348050f6a110aa7240b43ce7d734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:23</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

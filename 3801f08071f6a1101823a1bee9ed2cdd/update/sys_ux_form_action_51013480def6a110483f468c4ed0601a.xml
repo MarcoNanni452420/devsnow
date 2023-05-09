@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description>Save Draft UI action for employee portal</description>
+        <name>Save Draft(portal)</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:42</sys_created_on>
+        <sys_id>51013480def6a110483f468c4ed0601a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Save Draft(portal)</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_form_action_51013480def6a110483f468c4ed0601a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:42</sys_updated_on>
+        <table>x_398999_perform_0_performance_review</table>
+        <ui_action/>
+    </sys_ux_form_action>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:30</sys_created_on>
+        <sys_id>190134804af6a110dc1e049ad3527c13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review user Record.</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_190134804af6a110dc1e049ad3527c13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:30</sys_updated_on>
+        <view_rules_configuration display_value="Performance Review View Rules">9d013480fef6a1107c2b369ae5366813</view_rules_configuration>
+        <workspace_view_rule display_value="Performance Review user Record">4201748081f6a110a31f2da0574445c0</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+</record_update>

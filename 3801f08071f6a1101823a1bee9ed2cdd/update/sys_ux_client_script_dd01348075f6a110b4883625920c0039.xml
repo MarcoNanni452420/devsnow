@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Simple List">d10134804df6a110bd686d354eb04739</macroponent>
+        <name>PR_set title to list filter</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {state,setState} = api;
+    const {translate} = helpers;
+    const {
+        listTitle,
+        query
+    } = api.context.props;
+
+    setState('filterTitle',listTitle); // setting the default listTitle passed in as params
+    // Doing a check on listTitle.
+    if (listTitle.startsWith('Group by status')) {
+        var _title = query.substring(query.lastIndexOf('=') + 1);
+        _title = _title.charAt(0).toUpperCase() + _title.slice(1);
+
+        switch (_title) {
+
+            case "Manager_review":
+                _title = "Manager Review";
+                break;
+            case "Update_requested":
+                _title = "Update Requested";
+                break;
+
+        }
+        setState('filterTitle',_title)
+        return await translate(state.filterTitle);
+
+    } else
+        return await translate(state.filterTitle);
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:59</sys_created_on>
+        <sys_id>dd01348075f6a110b4883625920c0039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR_set title to list filter</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_client_script_dd01348075f6a110b4883625920c0039</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:59</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

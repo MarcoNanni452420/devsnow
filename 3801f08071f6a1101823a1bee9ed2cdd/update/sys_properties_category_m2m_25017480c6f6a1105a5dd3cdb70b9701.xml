@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="x_398999_perform_0.Performance Review">e90174805cf6a110597ffe98bcaf2a00</category>
+        <order>700</order>
+        <property display_value="x_398999_perform_0.mgr_empty_notify" name="x_398999_perform_0.mgr_empty_notify">6101748043f6a110ed45980bde844101</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:16</sys_created_on>
+        <sys_id>25017480c6f6a1105a5dd3cdb70b9701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_398999_perform_0.mgr_empty_notify.x_398999_perform_0.Performance Review</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_25017480c6f6a1105a5dd3cdb70b9701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:16</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

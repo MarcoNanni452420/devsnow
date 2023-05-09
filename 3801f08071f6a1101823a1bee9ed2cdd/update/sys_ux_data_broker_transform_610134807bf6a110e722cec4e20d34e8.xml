@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_398999_perform_0.Performance Review EVAM Data Transform</api_name>
+        <description>Change the output on the Data Set.</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Performance Review EVAM Data Transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "name": "evamData",&#13;
+  "label": "PR EVAM Data",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "object",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": {}&#13;
+}]</props>
+        <required_translations>[{"message":"PR EVAM Data","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+    input.evamData.items = input.evamData.items.map(function(item) {
+
+        // transform the manager to include 'Requested By:'
+        item.propValues.subtitle = gs.getMessage('Requested By: {0}', item.propValues.model.manager);
+
+        // transform the background highlight of the state
+        // transform the summary to read as required
+		
+		var tb = new GlideRecord(item.propValues.model.table);
+		tb.get(item.propValues.model.sys_id);
+		
+        var summaryText = '';
+        var highColor = '';
+        var state = tb.getValue('state');
+
+        switch (state) {
+            case 'draft':
+                summaryText = gs.getMessage('Please fill out and submit completed form.');
+                highColor = "low";
+                break;
+            case 'submitted':
+                summaryText = gs.getMessage('Your evaluation has been sent to you manager for review.');
+                highColor = "info";
+                break;
+            case 'update_requested':
+                summaryText = gs.getMessage('Make update requested by manager and submit.');
+                highColor = "moderate";
+                break;
+            case 'manager_review':
+                summaryText = gs.getMessage('Please read and mark as complete.');
+                highColor = "warning";
+                break;
+            case 'confirmed':
+                summaryText = gs.getMessage('Your evaluation is complete.');
+                highColor = "positive";
+                break;
+        }
+        // set the highlight color to the propValue
+        item.propValues.highlightedHeaderBkgColor = highColor;
+        // set the summary value to display
+        item.propValues.summary = summaryText;
+
+        return item;
+    });
+    return input.evamData;
+
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:08</sys_created_on>
+        <sys_id>610134807bf6a110e722cec4e20d34e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review EVAM Data Transform</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_610134807bf6a110e722cec4e20d34e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:08</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=610134807bf6a110e722cec4e20d34e8"/>
+</record_update>

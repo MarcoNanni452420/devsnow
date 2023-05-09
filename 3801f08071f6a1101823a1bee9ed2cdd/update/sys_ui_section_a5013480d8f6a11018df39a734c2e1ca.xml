@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Past Year" section_id="a5013480d8f6a11018df39a734c2e1ca" sys_domain="global" table="x_398999_perform_0_performance_review" version="3" view="self_review_ws_x_398999_perform_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>projects_current</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:33:22</sys_created_on>
+            <sys_id>2901348019f6a110b829e67f146d9ba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Past Year" display_value="Past Year" name="x_398999_perform_0_performance_review" sys_domain="global" view="6501348044f6a11049c28a78cce707cb">a5013480d8f6a11018df39a734c2e1ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:33:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_proud</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:33:22</sys_created_on>
+            <sys_id>6901348019f6a11011874de995c149a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Past Year" display_value="Past Year" name="x_398999_perform_0_performance_review" sys_domain="global" view="6501348044f6a11049c28a78cce707cb">a5013480d8f6a11018df39a734c2e1ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:33:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>done_differently</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:33:22</sys_created_on>
+            <sys_id>6d013480e5f6a1108367cc302fe161a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Past Year" display_value="Past Year" name="x_398999_perform_0_performance_review" sys_domain="global" view="6501348044f6a11049c28a78cce707cb">a5013480d8f6a11018df39a734c2e1ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:33:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Past Year</caption>
+            <header>false</header>
+            <name>x_398999_perform_0_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:33:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5013480d8f6a11018df39a734c2e1ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_398999_perform_0_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+            <sys_update_name>sys_ui_section_a5013480d8f6a11018df39a734c2e1ca</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:33:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Review WS (x_398999_perform_0)" name="self_review_ws_x_398999_perform_0">6501348044f6a11049c28a78cce707cb</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

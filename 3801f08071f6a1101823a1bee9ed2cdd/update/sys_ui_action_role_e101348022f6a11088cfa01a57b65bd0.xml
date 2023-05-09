@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:08</sys_created_on>
+        <sys_id>e101348022f6a11088cfa01a57b65bd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit.x_398999_perform_0.manager</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_ui_action display_value="Submit">e101348018f6a110da2d84e8b1cef5d2</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_e101348022f6a11088cfa01a57b65bd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:08</sys_updated_on>
+        <sys_user_role display_value="x_398999_perform_0.manager" name="x_398999_perform_0.manager">c6017480eff6a110d5898f1fd0f4a3e0</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

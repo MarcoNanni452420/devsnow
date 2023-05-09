@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Work Traits" section_id="290134805cf6a110e8f4dd25a4c03bd1" sys_domain="global" table="x_398999_perform_0_performance_review" version="3" view="manager_review_x_398999_perform_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>productivity</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_id>ad01348086f6a1105314e49cb6559fa2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_398999_perform_0_performance_review" sys_domain="global" view="6901348061f6a11023a3d98193b1d5d0">290134805cf6a110e8f4dd25a4c03bd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dependability</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_id>250134804ef6a11058e2785418af3ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_398999_perform_0_performance_review" sys_domain="global" view="6901348061f6a11023a3d98193b1d5d0">290134805cf6a110e8f4dd25a4c03bd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>creativity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_id>61013480a0f6a1103e1981d7dbd4a8a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_398999_perform_0_performance_review" sys_domain="global" view="6901348061f6a11023a3d98193b1d5d0">290134805cf6a110e8f4dd25a4c03bd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_id>e10134808ef6a11064fdb24af583e5a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_398999_perform_0_performance_review" sys_domain="global" view="6901348061f6a11023a3d98193b1d5d0">290134805cf6a110e8f4dd25a4c03bd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>takes_initiative</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_id>ed01348075f6a11008551f98c08cf2a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_398999_perform_0_performance_review" sys_domain="global" view="6901348061f6a11023a3d98193b1d5d0">290134805cf6a110e8f4dd25a4c03bd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>honesty</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_id>2101348046f6a110af0dbca18a831aa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_398999_perform_0_performance_review" sys_domain="global" view="6901348061f6a11023a3d98193b1d5d0">290134805cf6a110e8f4dd25a4c03bd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work Traits</caption>
+            <header>false</header>
+            <name>x_398999_perform_0_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-09 08:32:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>290134805cf6a110e8f4dd25a4c03bd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_398999_perform_0_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+            <sys_update_name>sys_ui_section_290134805cf6a110e8f4dd25a4c03bd1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-09 08:32:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager Review (x_398999_perform_0)" name="manager_review_x_398999_perform_0">6901348061f6a11023a3d98193b1d5d0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

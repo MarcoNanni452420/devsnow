@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Performance Review Source">060174802df6a110705eace4943015dd</ais_search_source>
+        <label>Performance Review</label>
+        <name>Performance Review Source</name>
+        <order>100</order>
+        <search_context_config display_value="Performance Review AI Search">a50134809af6a11096469a71f15ac4f0</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:40</sys_created_on>
+        <sys_id>ed013480f6f6a1100ffdaea72755e1f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Source</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_search_filter_ed013480f6f6a1100ffdaea72755e1f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:40</sys_updated_on>
+    </sys_search_filter>
+</record_update>

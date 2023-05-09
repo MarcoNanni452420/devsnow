@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">51013480a1f6a110e9a47f502833ad7f</macroponent>
+        <name>PR_complete manager feedback</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+
+    //Button on click of 'send evaluation'
+    
+    api.data.gform.setValue({
+        fieldName: 'state',
+        value: 'manager_review'
+    });
+
+    api.data.gform.setValue({
+        fieldName:'manager_confirmation',
+        value:'true'
+    });
+    
+    api.data.gform.save();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:53</sys_created_on>
+        <sys_id>910134805ef6a110c13afb41674c7834</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR_complete manager feedback</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_ux_client_script_910134805ef6a110c13afb41674c7834</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:53</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

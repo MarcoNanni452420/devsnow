@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Number of Months  between reviews &#13;
+Annual = 12&#13;
+BiAnnual = 6&#13;
+Custom = # months&#13;
+Manual = 0</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_398999_perform_0.review_process_schedule</name>
+        <read_roles>x_398999_perform_0.admin</read_roles>
+        <suffix>review_process_schedule</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:32:24</sys_created_on>
+        <sys_id>69017480c7f6a11089be2ecd58784602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_398999_perform_0.review_process_schedule</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_update_name>sys_properties_69017480c7f6a11089be2ecd58784602</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:32:24</sys_updated_on>
+        <type>integer</type>
+        <value>12</value>
+        <write_roles>x_398999_perform_0.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=69017480c7f6a11089be2ecd58784602"/>
+</record_update>

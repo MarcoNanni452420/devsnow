@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 08:33:07</sys_created_on>
+        <sys_id>a901348021f6a11024a8821e6d2177dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_398999_perform_0_performance_review.additional_thoughts.x_398999_perform_0.manager</sys_name>
+        <sys_package display_value="Performance Review App" source="x_398999_perform_0">3801f08071f6a1101823a1bee9ed2cdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Performance Review App">3801f08071f6a1101823a1bee9ed2cdd</sys_scope>
+        <sys_security_acl display_value="x_398999_perform_0_performance_review.additional_thoughts">29013480e4f6a110bebd423f02fdd1ec</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a901348021f6a11024a8821e6d2177dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 08:33:07</sys_updated_on>
+        <sys_user_role display_value="x_398999_perform_0.manager" name="x_398999_perform_0.manager">c6017480eff6a110d5898f1fd0f4a3e0</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
